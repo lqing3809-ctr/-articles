@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>官网能登录，App Store 却&quot;验证失败&quot;？两招搞定 - CC-🍎 教程中心</title>
+<title>Apple ID 登录&quot;验证失败&quot;？按这 4 步开启双重认证解决 - CC-🍎 教程中心</title>
 <script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 <style>
 :root{--bg:#f5f5f7;--card:#fff;--text:#1d1d1f;--sub:#86868b;--blue:#007aff;--green:#07c160}
@@ -46,7 +46,55 @@ footer a{color:var(--blue);text-decoration:none}
 <body>
 <div class="wrap">
 <a class="back" href="index.html">← 全部文章</a>
-<div class="card article"><h1>官网能登录，App Store 却&quot;验证失败&quot;？两招搞定</h1><div class="date">2026-10-23</div><p>密码明明是对的，App Store 就是弹"验证失败"或"连接服务器出错"。别慌，按顺序试下面两招，第一招不行再试第二招。</p><h2>第一招：校准 iPhone 的日期和时间</h2><p>老机型的时间服务器偶尔和苹果的验证服务器对不上，就会这样。</p><ol><li>打开"设置 → 通用 → 日期与时间"。</li><li>先把"自动设置"关掉，检查时区、日期、时间是不是你所在地的正确时间（比如在国内就用北京时间）。</li><li>回到 App Store 重新登录一次。</li><li>登录成功后，再回来把"自动设置"打开，确认时间依然正确。</li></ol><p>如果时间本来就是对的、还是失败，往下看第二招。</p><h2>第二招：给当前 Wi-Fi 手动设个 DNS</h2><ol><li>打开"设置 → 无线局域网"，确认连着 Wi-Fi。</li><li>点当前网络名称右边的 ⓘ。</li><li>找到"配置 DNS"，点进去选"手动"，添加服务器 8.8.8.8，点右上角存储。</li><li>回 App Store 再登录一次。</li></ol><p>登录成功后，可以回到同一页面把 DNS 改回"自动"。</p><h2>为啥会这样</h2><p>多数情况就是设备时间和苹果服务器时间对不上，验证握手失败。按上面两步走，基本都能解决。</p></div>
+<div class="card article"><h1>Apple ID 登录&quot;验证失败&quot;？按这 4 步开启双重认证解决</h1><div class="date">2026-10-31</div><h2>适用情况</h2>
+<p>登录 App Store 或 Apple 账户时，提示「验证失败」「发生未知错误」等问题。如果你的 Apple ID 登录时出现以下提示：</p>
+<ul>
+<li>验证失败</li>
+<li>发生未知错误</li>
+<li>无法正常登录 App Store</li>
+<li>无法正常登录 Apple 账户</li>
+</ul>
+<p>可能与账号的安全验证设置有关。按照下面的步骤，在苹果官方网站完成双重认证设置即可尝试解决。</p>
+<h2>第一步：进入苹果官方网站</h2>
+<p>打开苹果官方账户管理网站：<a href="https://account.apple.com/" target="_blank">https://account.apple.com/</a></p>
+<p>点击登录，输入需要处理的 Apple ID 账号及密码。</p>
+<p><b>注意：</b>请确认网址是苹果官方的 account.apple.com，不要进入其他陌生网站。</p>
+<h2>第二步：进入账户安全设置</h2>
+<p>成功登录后：</p>
+<ol>
+<li>找到「登录与安全性」（Sign-In and Security）。</li>
+<li>点击进入「账户安全」（Account Security）。</li>
+<li>查看当前账号的安全验证状态。</li>
+<li>如果页面出现「升级账户安全性」（Upgrade Account Security），点击进入。</li>
+</ol>
+<h2>第三步：开启双重认证</h2>
+<p>按照苹果官方网站的页面提示操作：</p>
+<ol>
+<li>根据提示完成身份验证。</li>
+<li>按要求填写可以正常接收验证码的可信任电话号码。</li>
+<li>选择短信或电话验证方式。</li>
+<li>输入收到的验证码。</li>
+<li>根据页面提示完成设置。</li>
+</ol>
+<p>完成后，账号即可开启双重认证。</p>
+<h2>第四步：重新登录设备</h2>
+<p>完成以上操作后：</p>
+<ol>
+<li>返回 iPhone 或 iPad。</li>
+<li>打开 App Store。</li>
+<li>重新尝试登录 Apple ID。</li>
+<li>如果出现双重认证验证码，按照提示完成验证。</li>
+</ol>
+<p>如果仍然无法登录，请不要连续反复尝试，先确认账号安全状态，再联系苹果官方客服处理。</p>
+<h2>⚠️ 特别注意事项</h2>
+<ol>
+<li><b>不要频繁尝试登录</b><br>如果连续出现验证失败或未知错误，不建议反复尝试，避免触发苹果的账户安全保护。</li>
+<li><b>已经登录 iCloud 的用户</b><br>如果账号已经登录 iCloud，并且开启了「查找」功能，部分账户安全设置可能会受到限制。请勿随意退出账号或关闭查找功能，以免影响设备使用。</li>
+<li><b>验证码安全</b><br>双重认证验证码属于账户安全信息，请勿提供给陌生人，也不要将验证码发送给他人代操作。</li>
+<li><b>无法完成验证怎么办？</b><br>如果官网没有出现升级账户安全的选项，或者无法通过身份验证，请联系 Apple 官方支持进一步确认。</li>
+</ol>
+<p>官方入口：<a href="https://account.apple.com/" target="_blank">https://account.apple.com/</a></p>
+<p>本教程仅适用于苹果官方账户安全设置操作，请以苹果官网实际显示的页面和提示为准。</p></div>
 <div class="cta"><p>还有疑问？加微信一对一咨询</p><div class="wx">微信：Xapple88X</div><button onclick="copyWx()">复制微信号</button></div>
 <a class="shop-link" href="https://lqing3809-ctr.github.io/shop/">← 返回 CC-🍎 小店</a>
 <footer>© 2026 CC-🍎 精品服务团队 All Rights Reserved.<br><span id="busuanzi_container_site_pv">本站总访问量 <span id="busuanzi_value_site_pv"></span> 次</span></footer>
